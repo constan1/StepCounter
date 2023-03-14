@@ -88,7 +88,6 @@ class MainActivity : ComponentActivity() {
             )
 
             Spacer(modifier = Modifier.height(16.dp))
-
             Button(
                 onClick = {
                     if (isServiceRunning.value) {
